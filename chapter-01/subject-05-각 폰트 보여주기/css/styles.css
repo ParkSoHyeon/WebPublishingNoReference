@@ -1,0 +1,28 @@
+@font-face {
+    font-family: RussoOne-Regular;
+    src: url('../fonts/RussoOne-Regular.ttf');
+}
+
+#serif {
+    font-family: serif;
+}
+
+#sans-serif {
+    font-family: sans-serif;
+}
+
+#monospace {
+    font-family: monospace;
+}
+
+#cursive {
+    font-family: cursive;
+}
+
+#fantasy {
+    font-family: fantasy;
+}
+
+#google {
+    font-family: RussoOne-Regular;
+}
