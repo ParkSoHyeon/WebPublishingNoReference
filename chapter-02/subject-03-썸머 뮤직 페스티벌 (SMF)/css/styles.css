@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-header {
+    background-image: url('../images/hero_image.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-bar {
+    position: absolute;
+    top: 0;
+    padding: 10px 20px;
+}
+
+.header-bar .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.info-content {
+    text-align: center;
+}
+
+.info-content h1 {
+    margin: 0 0 10px;
+    font-size: 40px;
+}
+
+.info-content h2 {
+    margin: 0 0 50px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.learn-more {
+    display: inline-block;
+    font-size: 18px;
+    border: 2px #FFF solid;
+    padding: 8px 40px;
+}
+
+.learn-more a {
+    color: #FFF;
+}
