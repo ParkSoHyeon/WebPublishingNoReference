@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    padding: 25px 0;
+    border-bottom: solid 1px #EEE;
+    text-align: center;
+    margin: 0;
+}
+
+.content {
+    font-size: 18px;
+    margin: 50px auto;
+    width: 70%;
+}
+
+.link {
+    padding: 15px 0;
+    font-size: 18px;
+    border-top: solid 1px #EEE;
+    border-bottom: solid 1px #EEE;
+    font-weight: bold;
+}
+
+.link a {
+    text-decoration: none;
+    color: #222;
+}
+
+#codeit {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#youtoo {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
