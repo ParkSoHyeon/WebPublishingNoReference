@@ -1,0 +1,16 @@
+.env-div {
+    position: relative;
+    display: inline-block;
+}
+
+.stamp {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.address {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
