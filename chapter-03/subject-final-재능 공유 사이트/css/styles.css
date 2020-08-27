@@ -1,0 +1,97 @@
+#carouselShareSkillIndicators {
+    margin-bottom: 50px;
+}
+
+.carousel-item {
+    height: 400px;
+}
+
+#carousel-guitar {
+    background-image: url('../images/guitar.jpg');
+    background-size: 100% 100%;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+#carousel-makeup {
+    background-image: url('../images/makeup.jpg');
+    background-size: 100% 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#carousel-cooking {
+    background-image: url('../images/cooking.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.carousel-caption {
+    color: #FFF;
+    top: 100px;
+}
+
+.carousel-caption h5 {
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+.carousel-caption p {
+    font-size: 22px;
+    margin-bottom: 48px;
+}
+
+.carousel-caption a {
+    font-size: 16px;
+    color: #FFF;
+    background-color: #5900E7;
+    padding: 10px 30px;
+}
+
+.carousel-caption a:hover {
+    text-decoration: none;
+}
+
+.tutor-list {
+    margin-top: 18px;
+    margin-bottom: 70px;
+}
+
+.tutor-frame {
+    padding: 0 15px;
+}
+
+.tutor-item {
+    display: inline-block;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1.5);
+}
+
+.tutor-item .tutor-image img {
+    width: 100%;
+}
+
+.tutor-item .tutor-content {
+    padding: 10px;
+    color: #4A4A4A;
+}
+
+.tutor-content .tutor-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.tutor-content .tutor-user {
+    font-size: 13px;
+}
+
+.tutor-content .tutor-user span {
+    vertical-align: middle;
+}
+
+.tutor-content .tutor-user img {
+    width: 20px;
+    margin-right: 10px;
+}
