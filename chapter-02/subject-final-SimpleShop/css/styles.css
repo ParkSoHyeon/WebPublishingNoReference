@@ -1,9 +1,10 @@
 * {
     box-sizing: border-box;
-}
-
-body {
+    padding: 0;
     margin: 0;
+}
+/* normalization ↑ */
+body {    
     min-width: 992px;
     font-family: "Helvetica";
 }
@@ -14,9 +15,9 @@ a {
 
 ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
+
+/*  normalization ↑  */
 
 #navbar {
     height: 60px;
@@ -29,7 +30,7 @@ ul {
 }
 
 #navbar .navbar-logo img {
-    vertical-align: middle;
+    vertical-align: middle; /* 정렬 안해줄 시 로고가 위쪽으로 올라감 */
     width: auto;
     height: 20px;
 }
@@ -39,7 +40,7 @@ ul {
 }
 
 #navbar .navbar-menu li {
-    float: right;
+    float: right;               /* 해당 속성이 없을 시 navbar 에서 이미지 안으로 들어가 버림;; ??why?? */
     margin-left: 30px;
 }
 
@@ -63,10 +64,10 @@ ul {
 
 .product-list {
     display: grid;
-    grid-template-columns: repeat(3, 225px);
-    grid-column-gap: 20px;
-    grid-row-gap: 80px;
-    justify-content: center;
+    grid-template-columns: repeat(3, 225px); /* 열 크기 및 라인 이름도 지정 가능 ex) [선이름] 열 크기 */
+    grid-column-gap: 20px;     /* 열 사이의 간격 */
+    grid-row-gap: 80px; /* 행 사이의 간격*/
+    justify-content: center; /* 그리드 콘텐츠를 수평 정렬합니다. */
 }
 
 .product-list > .product-image, img {
